@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <!-- App background -->
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <!-- Q1: Do — green (Important + Urgent) -->
+  <rect x="18" y="18" width="72" height="72" rx="12" fill="#22c55e"/>
+  <!-- Q2: Decide — cyan (Important + Not Urgent) -->
+  <rect x="102" y="18" width="72" height="72" rx="12" fill="#38bdf8"/>
+  <!-- Q3: Delegate — amber (Not Important + Urgent) -->
+  <rect x="18" y="102" width="72" height="72" rx="12" fill="#f59e0b"/>
+  <!-- Q4: Delete — slate (Not Important + Not Urgent) -->
+  <rect x="102" y="102" width="72" height="72" rx="12" fill="#94a3b8"/>
+</svg>
